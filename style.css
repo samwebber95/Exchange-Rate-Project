@@ -54,28 +54,3 @@ body {
   top: 52%;
   left: 27%;
 }
-
-.typewriter,
-.typewriter1 {
-  letter-spacing: 0.15em;
-  white-space: no-wrap;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blinking-cursor {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}
