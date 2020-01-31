@@ -4,10 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Bank of Webber & Kaufman</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div id="inputs-div">
+      <button id="button-convert">
+        Convert Currency
+      </button>
+      <img
+        id="piggy-bank"
+        src="https://lh6.googleusercontent.com/proxy/jPi0AmjZXppQHQ_jA63BPrtYz6l8M3qlH0PCjaDfi_h7kI6aihYMvSgt-jb94hTnJjcVlLKHKdKf6WPUmbr515egV8hymMjwpFKmRBO6H8ihm-oXBQ-IgdJGdeM9N99Di0ZOWCa2_5L6MR7EEm0"
+      />
+      />
+    </div>
+    <div id="radio">
+      <input
+        id="input-dollars"
+        type="radio"
+        name="currency"
+        value="dollars"
+        checked
+      />
+      Dollars<br />
+      <input id="input-pounds" type="radio" name="currency" value="pounds" />
+      Pounds<br />
+    </div>
+    <div id="money-text-input">
+      <input id="input-number" type="text" name="wedgeInput" />
+    </div>
+    <div id="money-text-output">
+      <input id="retrieve-number" type="text" name="wedgeRetrieve" />
+    </div>
     <script src="main.js"></script>
     <script src="tests.js"></script>
   </body>

@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  animation: typing 3.5s steps(40, end);
+}
+
+p {
+  font-size: 26px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  animation: typing 3.5s steps(40, end);
+}
+
+body {
+  background-image: linear-gradient(blanchedalmond, darksalmon);
+}
+
+#button-convert {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+#piggy-bank {
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  height: 200px;
+}
+
+#radio {
+  position: absolute;
+  top: 51%;
+  left: 38%;
+}
+
+#retrieve-number {
+  position: absolute;
+  top: 52%;
+  left: 55%;
+}
+
+#input-number {
+  position: absolute;
+  top: 52%;
+  left: 27%;
+}
+
+.typewriter,
+.typewriter1 {
+  letter-spacing: 0.15em;
+  white-space: no-wrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
